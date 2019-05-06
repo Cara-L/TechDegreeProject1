@@ -129,8 +129,6 @@ calculateAverageHeightOfTeam(players: teamRaptors)
 
 // Sending letters out to the guardians of the players containing information about which team their child is on and what time their first practice is using For In Loops:
 
-// if let value = optional {
-
 func letterToGuardiansDragons(teamOfPlayers: [[String : String]], teamName: String) {
     for player in players {
         if let guardians = player["guardians"],
